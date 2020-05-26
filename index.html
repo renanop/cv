@@ -2,86 +2,72 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Renan's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="favicon-32x32.png" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merriweather&family=Montserrat&display=swap"
+    rel="stylesheet" />
+  <meta charset="utf-8" />
+  <title>Renan de Oliveira Pereira</title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/circle-cropped.png" alt="renan profile picture" height = "180" width="180"></td>
-      <td>
-        <h1>Renan de Oliveira Pereira</h1>
-        <p><em>Aspiring software engineer</em></p>
-        <p>I am an undergraduate student in the Federal University of Rio de Janeiro.
-          I'm deeply interested in subjects like software development, strategy and
-          digital innovation. </p>
-        <p>Currently learning how to cook up some fancy meals and websites.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>2016-2022: <a href="https://www.industrial.poli.ufrj.br/">BSc Industrial Engineering</a> - <a href="https://ufrj.br/">Federal University of Rio de Janeiro (UFRJ)</a></li>
-    <li>2019 (Exchange Program): <a href="https://fenix.tecnico.ulisboa.pt/cursos/megi">MSc Industrial Engineering and Management</a> - <a href="https://tecnico.ulisboa.pt/en/">Técnico Lisboa</a></li>
-    <li>2020-2023: BSc Software Engineering - <a href="https://www.unicesumar.edu.br/home/">The University Center of Maringá (UNICESUMAR)</a></li>
-  </ul>
-  <hr>
-  <h3>Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Time</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2019</td>
-        <td>Undergraduate Student Researcher at the Industrial Engineering Department of the Federal University of Rio de Janeiro</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Consultant and associate at <a href="https://garagemgetup.com/">Garagem GetUp (Strategy Consulting)</a></td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Time and Motion Studies Teaching Assistant at the Industrial Engineering Department of the Federal University of Rio de Janeiro</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Projects team member at<a href="https://ligadeinvestimento.wixsite.com/liequfrj"> LIEQ - Investment Club</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Product Management</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Microsoft Office</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Startup Business Strategy</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </table>
-        <br>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="contact.html">Contact me!</a>
+  <div class="top-container">
+    <img class="top-cloud" src="images/CSS - My Site Images/cloud.png" alt="" />
+    <h1>I'm Renan</h1>
+    <h2>Aspiring software <span>engineer</span>
+      <h2>
+        <img class="bottom-cloud" src="images/CSS - My Site Images/cloud.png" alt="" />
+        <img class="mountains" src="images/CSS - My Site Images/mountain.png" alt="" />
+  </div>
 
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="images/CSS - My Site Images/renan_cropped.png" alt="" />
+      <h2>Hello.</h2>
+      <p class="greetings">
+        I'm an Industrial Engineering student at the Federal University of Rio de Janeiro and also a software
+        developper. I love doing sports and making pizza! 🍕
+      </p>
+    </div>
+    <hr />
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://image.flaticon.com/icons/svg/2920/2920244.svg" alt="" />
+        <h3>Software Development</h3>
+        <p class="code-skill-description">
+          I started coding during college, although i wasn't enrolled in a Computer Science degree. Now i'm diving into
+          Web Development,
+          studying lots of CSS, HTML and Javascript. Also, i'm currently pursuing my second bachelor's degree, which is
+          in software engineering.</p>
+      </div>
+      <div class="skill-row">
+        <img class="business-img" src="https://image.flaticon.com/icons/svg/858/858068.svg" alt="" />
+        <h3>Lorem Ipsum Dolor</h3>
+        <p class="business-skill-description">
+          I had the opportunity to work as a business consultant in different startups. There, i could help managers and
+          CEOs to achieve their companies full potential and grow. I have knowledge techniques like Customer
+          Development, Lean Product Design and Growth Hacking.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you enjoy those subjects like i do.</h3>
+      <p class="final-p">
+        Send an email! Let's code while we discuss about technology, business or anything else!
+      </p>
+      <a class="btn" href="mailto:renanop@poli.ufrj.br">CONTACT ME</a>
+    </div>
+  </div>
 
-
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/renanop/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Instagram</a>
+    <p class="copyrights">© 2020 Renan de Oliveira Pereira.</p>
+  </div>
 </body>
 
 </html>
